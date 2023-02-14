@@ -64,5 +64,13 @@ namespace WholeBase
             registerWindow.Show();
             Hide();
         }
+
+        private void Test_Click(object sender, RoutedEventArgs e)
+        {
+            Main main = new Main();
+            main.Show();
+            Hide();
+
+        }
     }
 }
