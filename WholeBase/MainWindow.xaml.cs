@@ -24,5 +24,15 @@ namespace WholeBase
         {
             InitializeComponent();
         }
+
+        private void ThemToogle_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_exit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

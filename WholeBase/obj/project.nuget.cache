@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PMe4mdtt/7Mn7aN6v5lhewlYlLwKmJ+x6tqQeakmOvY/2U7xUxH+bzyJUF5cCF5tMBcYSBbI5A0csofQdbrODg==",
+  "dgSpecHash": "D5pyIZmsg+Eu/Gv2QcVp9Zc19VFch5IlwI5/DPdyI6X5C4sB9YSy5MmlYPeVxnT/CXVPsaZ9q101tnthCuUgbw==",
   "success": true,
-  "projectFilePath": "E:\\vs\\WholeBase\\WholeBase\\WholeBase.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\WholeBase.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MrKyg\\.nuget\\packages\\materialdesigncolors\\2.1.1\\materialdesigncolors.2.1.1.nupkg.sha512",
+    "C:\\Users\\MrKyg\\.nuget\\packages\\materialdesignthemes\\4.7.1\\materialdesignthemes.4.7.1.nupkg.sha512",
+    "C:\\Users\\MrKyg\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
   "logs": []
 }
