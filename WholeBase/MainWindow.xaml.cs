@@ -57,5 +57,12 @@ namespace WholeBase
             base.OnMouseLeftButtonDown(e);
             DragMove();
         }
+
+        private void signupBtn_Click(object sender, RoutedEventArgs e)
+        {
+            RegisterWindow registerWindow = new RegisterWindow();
+            registerWindow.Show();
+            Hide();
+        }
     }
 }
