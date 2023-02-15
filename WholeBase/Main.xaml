@@ -10,7 +10,7 @@
         Height="1920" Width="1080" x:Name="Appwindow" >
             
     <Grid >
-        <materialDesign:Card>
+        <materialDesign:Card >
             <Grid >
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*"/>
@@ -22,7 +22,7 @@
                         <Setter Property="Height" Value="30"></Setter>
                     </Style>
                 </Grid.Resources>
-                <Grid Grid.Column="0">
+                <Grid Background="GhostWhite" Grid.Column="0">
                     <ListView Margin="0 15" BorderBrush="DarkGray" BorderThickness="2" Cursor="">
                         <ListViewItem HorizontalAlignment="Center" Margin="0 ">
                             <Button Style="{StaticResource MaterialDesignFloatingActionButton}"

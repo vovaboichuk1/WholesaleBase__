@@ -32,3 +32,5 @@ C:\Users\MrKyg\Source\Repos\WholesaleBase__\WholeBase\obj\Debug\net7.0-windows\M
 C:\Users\MrKyg\Source\Repos\WholesaleBase__\WholeBase\obj\Debug\net7.0-windows\Messeng.baml
 C:\Users\MrKyg\Source\Repos\WholesaleBase__\WholeBase\obj\Debug\net7.0-windows\MyProfile.g.cs
 C:\Users\MrKyg\Source\Repos\WholesaleBase__\WholeBase\obj\Debug\net7.0-windows\MyProfile.baml
+C:\Users\MrKyg\Source\Repos\WholesaleBase__\WholeBase\obj\Debug\net7.0-windows\SerchPlace.g.cs
+C:\Users\MrKyg\Source\Repos\WholesaleBase__\WholeBase\obj\Debug\net7.0-windows\SerchPlace.baml
