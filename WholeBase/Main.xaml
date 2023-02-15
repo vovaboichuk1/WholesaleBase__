@@ -7,8 +7,8 @@
         xmlns:local="clr-namespace:WholeBase"
         mc:Ignorable="d"
         Title="Main" 
-        Height="1980" Width="1080" x:Name="Appwindow">
-
+        Height="1920" Width="1080" x:Name="Appwindow" >
+            
     <Grid >
         <materialDesign:Card>
             <Grid >
@@ -42,7 +42,7 @@
                         </ListViewItem>
                         <ListViewItem HorizontalAlignment="Center" Margin="0 ">
                             <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
-                                    HorizontalAlignment="Left" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
+                                    HorizontalAlignment="Left" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" x:Name="myprofileTxT" Click="myprofileTxT_Click">
                                 <StackPanel Margin="-5">
                                     <materialDesign:PackIcon Kind="User"/>
                                 </StackPanel>
@@ -91,8 +91,6 @@
         <Frame x:Name="MyFrame" Margin="60,52,0,0">
 
         </Frame>
-
-
     </Grid>
 
 </Window>

@@ -62,5 +62,10 @@ namespace WholeBase
             MyFrame.Content = new Messeng();
 
         }
+
+        private void myprofileTxT_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Content = new MyProfile();
+        }
     }
 }

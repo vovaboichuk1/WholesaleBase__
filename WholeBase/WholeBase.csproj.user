@@ -8,6 +8,9 @@
     <Compile Update="Messeng.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="MyProfile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="RegisterWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -17,6 +20,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Messeng.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyProfile.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="RegisterWindow.xaml">

@@ -29,7 +29,7 @@
                             <Button x:Name="btn_exit" ToolTip="Вийти з програми" Content="Вийти" Click="btn_exit_Click"/>
                         </StackPanel>
                     </materialDesign:PopupBox>
-                    <Image Margin="0 60 0 5" Source="Logo.png" Height="100" HorizontalAlignment="Center"/>
+                    <Image Margin="0 60 0 5" Source="Assets/Logo.png" Height="100" HorizontalAlignment="Center"/>
 
 
 
