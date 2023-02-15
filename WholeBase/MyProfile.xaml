@@ -10,16 +10,16 @@
       Title="MyProfile" FontFamily="Roboto" >
     <ScrollViewer>
         <Grid Background="White">
-            <Grid x:Name="print">
+            <Grid x:Name="print" HorizontalAlignment="Center">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="120"/>
                     <RowDefinition Height="400"/>
                     <RowDefinition Height="200"/>
                 </Grid.RowDefinitions>
-                <StackPanel Orientation="Horizontal" Margin="30" Grid.Row="0">
-                    <Image Source="Assets/logo.png" Width="100" Height="50" VerticalAlignment="Center"/>
-                    <TextBlock Text="Оптова База Фрукти і Овочі " FontSize="35" Foreground="DarkGray" FontWeight="SemiBold"/>
-                    
+                <StackPanel Orientation="Horizontal" Margin="130 30 130 30" Grid.Row="0">
+                    <materialDesign:PackIcon Kind="User" Margin="0 0 0 0" Width="100" Height="59"/>
+                    <TextBlock Margin="0 11 0 0" Text="Ваш Профіль " FontSize="35" Foreground="DarkGray" FontWeight="SemiBold"/>
+
                 </StackPanel>
                 <StackPanel Grid.Row="1" HorizontalAlignment="Stretch" Margin="20">
                     <Grid HorizontalAlignment="Stretch">
@@ -27,36 +27,35 @@
                             <ColumnDefinition Width="1*"/>
                             <ColumnDefinition Width="1*"/>
                         </Grid.ColumnDefinitions>
-                        
+
                         <StackPanel Grid.Column="0" Margin="0">
                             <TextBlock Text="Ім'я клієнта" FontSize="20" Margin="5" HorizontalAlignment="Left" />
-                            <StackPanel Orientation="Horizontal">
+                            <StackPanel Orientation="Horizontal" >
                                 <TextBlock Text="Аккаунт створено" FontSize="12" Margin="5" HorizontalAlignment="Left" />
                                 <TextBlock Text="01 січня 2023" FontSize="12" Margin="5" FontWeight="DemiBold" HorizontalAlignment="Left" />
-             
-                                </StackPanel>
-                            <StackPanel Orientation="Horizontal">
+
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" >
                                 <TextBlock Text="Аккаунт Id " FontSize="12" Margin="5" HorizontalAlignment="Left" />
                                 <TextBlock Text="000001" FontSize="12" Margin="5" FontWeight="DemiBold" HorizontalAlignment="Left" />
 
                             </StackPanel>
-                            <StackPanel Orientation="Horizontal">
+                            <StackPanel Orientation="Horizontal" >
                                 <TextBlock Text="Акаунт пароль " FontSize="12" Margin="5" HorizontalAlignment="Left" />
                                 <TextBlock Text="123456" FontSize="12" Margin="5" FontWeight="DemiBold" HorizontalAlignment="Left" />
-
                             </StackPanel>
-                            <StackPanel Grid.Column="1" Margin="10">
-                                <TextBlock Text=" Ваше Ім'я " FontSize="12" Margin="0 -108 0 0" HorizontalAlignment="Right" Height="102" />
-                                <TextBlock Text="Дата створення акаунта " FontSize="12" Margin="0 -79 0 0" HorizontalAlignment="Right" Height="72" />
-                                <TextBlock Text="Ваш id " FontSize="12" Margin="0 -51 0 0" HorizontalAlignment="Right" Height="59" />
-                                <TextBlock Text="Ваш пароль " FontSize="12" Margin="0 -36 0 0" HorizontalAlignment="Right" Height="37" />
+                            <StackPanel>
+                                <Button Margin="0 0 110 0" x:Name="shangenickname" Style="{StaticResource MaterialDesignFlatButton}" materialDesign:ShadowAssist.ShadowDepth="Depth0" 
+                        FontSize="12" Content="Змінити Ім'я акаунта"/>
+                                <Button Margin="0 0 110 0" x:Name="shangepassword" Style="{StaticResource MaterialDesignFlatButton}" materialDesign:ShadowAssist.ShadowDepth="Depth0" 
+                        FontSize="12" Content="Змінити пароль акаунта"/>
                             </StackPanel>
-                            
                         </StackPanel>
+                        
                     </Grid>
 
                 </StackPanel>
             </Grid>
         </Grid>
-     </ScrollViewer>
+    </ScrollViewer>
 </Page>

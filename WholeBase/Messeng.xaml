@@ -10,7 +10,7 @@
       Title="Messeng">
 
     <Grid Background="White">
-        <StackPanel HorizontalAlignment="Center" Margin="0 70 0 0">
+        <StackPanel HorizontalAlignment="Center" Margin="0,225,0,0">
           
                 <StackPanel Margin="-5">
                     <materialDesign:PackIcon Kind="Bell" HorizontalAlignment="Center" Margin="0 0 0 5"/>

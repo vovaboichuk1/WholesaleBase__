@@ -88,7 +88,7 @@
             </Grid>
 
         </materialDesign:Card>
-        <Frame x:Name="MyFrame" Margin="60,52,0,0">
+        <Frame x:Name="MyFrame" Margin="70,0,0,0">
 
         </Frame>
     </Grid>
