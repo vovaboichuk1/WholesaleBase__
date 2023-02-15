@@ -7,11 +7,11 @@
         xmlns:local="clr-namespace:WholeBase"
         mc:Ignorable="d"
         Title="Main" 
-        Height="1980" Width="1080" x:Name="Appwindow" ResizeMode="NoResize" Background="{x:Null}" AllowsTransparency="True" WindowStartupLocation="CenterOwner" WindowStyle="None">
+        Height="1980" Width="1080" x:Name="Appwindow">
 
-    <Grid>
-        <materialDesign:Card Margin="10" UniformCornerRadius="15">
-            <Grid>
+    <Grid >
+        <materialDesign:Card>
+            <Grid >
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*"/>
                     <ColumnDefinition Width="15*"/>
@@ -23,7 +23,7 @@
                     </Style>
                 </Grid.Resources>
                 <Grid Grid.Column="0">
-                    <ListView Margin="0 15">
+                    <ListView Margin="0 15" BorderBrush="DarkGray" BorderThickness="2" Cursor="">
                         <ListViewItem HorizontalAlignment="Center" Margin="0 ">
                             <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
                                     HorizontalAlignment="Left" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
@@ -58,7 +58,7 @@
                         </ListViewItem>
                         <ListViewItem HorizontalAlignment="Center" Margin="0 ">
                             <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
-                                    HorizontalAlignment="Left" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
+                                    HorizontalAlignment="Left" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" Click="messengTxT_Click" x:Name="messengTxT" >
                                 <StackPanel Margin="-5">
                                     <materialDesign:PackIcon Kind="Bell"/>
                                 </StackPanel>
@@ -81,16 +81,18 @@
                             </Button>
                         </ListViewItem>
                     </ListView>
-                    
                 </Grid>
                 <Grid Grid.Column="1">
 
-                </Grid> 
+                </Grid>
             </Grid>
 
         </materialDesign:Card>
+        <Frame x:Name="MyFrame" Margin="60,52,0,0">
+
+        </Frame>
 
 
     </Grid>
-    
+
 </Window>

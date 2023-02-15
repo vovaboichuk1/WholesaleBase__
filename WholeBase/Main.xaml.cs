@@ -34,9 +34,7 @@ namespace WholeBase
             {
                 IsDarkTheme = false;
                 theme.SetBaseTheme(Theme.Light);
-                PackIcon icon = new PackIcon();
-                icon.Kind = PackIconKind.Mason;
-
+               
             }
             else
             {
@@ -57,6 +55,12 @@ namespace WholeBase
         {
             base.OnMouseLeftButtonDown(e);
             DragMove();
+        }
+
+        private void messengTxT_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Content = new Messeng();
+
         }
     }
 }

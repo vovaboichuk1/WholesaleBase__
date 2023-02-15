@@ -9,8 +9,8 @@
         Title="RegisterWindow" Height="760" Width="450"   
         WindowStartupLocation="CenterScreen">
     
-    <materialDesign:Card UniformCornerRadius="15" 
-           Background="{DynamicResource MaterialDesignPaper}" Margin="25" materialDesign:ShadowAssist.ShadowDepth="Depth4">
+    <materialDesign:Card  
+           Background="{DynamicResource MaterialDesignPaper}"  materialDesign:ShadowAssist.ShadowDepth="Depth0">
 
             <materialDesign:DialogHost CloseOnClickAway="True" x:Name="DialogHost">
                 <StackPanel Cursor="">

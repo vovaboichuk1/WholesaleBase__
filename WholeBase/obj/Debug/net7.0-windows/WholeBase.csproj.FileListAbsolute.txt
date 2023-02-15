@@ -28,3 +28,5 @@ C:\Users\MrKyg\Source\Repos\WholesaleBase__\WholeBase\obj\Debug\net7.0-windows\R
 C:\Users\MrKyg\Source\Repos\WholesaleBase__\WholeBase\obj\Debug\net7.0-windows\RegisterWindow.baml
 C:\Users\MrKyg\Source\Repos\WholesaleBase__\WholeBase\obj\Debug\net7.0-windows\Main.g.cs
 C:\Users\MrKyg\Source\Repos\WholesaleBase__\WholeBase\obj\Debug\net7.0-windows\Main.baml
+C:\Users\MrKyg\Source\Repos\WholesaleBase__\WholeBase\obj\Debug\net7.0-windows\Messeng.g.cs
+C:\Users\MrKyg\Source\Repos\WholesaleBase__\WholeBase\obj\Debug\net7.0-windows\Messeng.baml
