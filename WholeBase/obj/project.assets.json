@@ -50,6 +50,27 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "TextToColor/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/TextToColor.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TextToColor.dll": {}
+        }
       }
     }
   },
@@ -143,11 +164,57 @@
         "microsoft.xaml.behaviors.wpf.nuspec",
         "tools/Install.ps1"
       ]
+    },
+    "System.Buffers/4.5.1": {
+      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "type": "package",
+      "path": "system.buffers/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Buffers.dll",
+        "lib/net461/System.Buffers.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net45/System.Buffers.dll",
+        "ref/net45/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "ref/uap10.0.16299/_._",
+        "system.buffers.4.5.1.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "TextToColor/1.0.0": {
+      "sha512": "+UOky/BC4/phjdxuzafHMHqFV3fsCqBjxJdLx+zNcVSAMRvFXEwWHkTX4zi8ufpGnL3nJir16wy1ODNldHYptw==",
+      "type": "package",
+      "path": "texttocolor/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/TextToColor.dll",
+        "logo.png",
+        "texttocolor.1.0.0.nupkg.sha512",
+        "texttocolor.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
-      "MaterialDesignThemes >= 4.7.1"
+      "MaterialDesignThemes >= 4.7.1",
+      "TextToColor >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -156,11 +223,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\WholeBase.csproj",
+      "projectUniqueName": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__1\\WholeBase\\WholeBase.csproj",
       "projectName": "WholeBase",
-      "projectPath": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\WholeBase.csproj",
+      "projectPath": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__1\\WholeBase\\WholeBase.csproj",
       "packagesPath": "C:\\Users\\MrKyg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\obj\\",
+      "outputPath": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__1\\WholeBase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MrKyg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -192,6 +259,10 @@
           "MaterialDesignThemes": {
             "target": "Package",
             "version": "[4.7.1, )"
+          },
+          "TextToColor": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\WholeBase.csproj": {}
+    "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__1\\WholeBase\\WholeBase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\WholeBase.csproj": {
+    "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__1\\WholeBase\\WholeBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\WholeBase.csproj",
+        "projectUniqueName": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__1\\WholeBase\\WholeBase.csproj",
         "projectName": "WholeBase",
-        "projectPath": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\WholeBase.csproj",
+        "projectPath": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__1\\WholeBase\\WholeBase.csproj",
         "packagesPath": "C:\\Users\\MrKyg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\obj\\",
+        "outputPath": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__1\\WholeBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MrKyg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[4.7.1, )"
+            },
+            "TextToColor": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

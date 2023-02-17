@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "D5pyIZmsg+Eu/Gv2QcVp9Zc19VFch5IlwI5/DPdyI6X5C4sB9YSy5MmlYPeVxnT/CXVPsaZ9q101tnthCuUgbw==",
+  "dgSpecHash": "j0rfFK00ypTMIe8jcdegi/pfbnKt6xhAcYZSlOE1LPrWsDTUb5irYnq8ie+2FBqig5U13m0adudpq+g/EbxeeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\WholeBase.csproj",
+  "projectFilePath": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__1\\WholeBase\\WholeBase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MrKyg\\.nuget\\packages\\materialdesigncolors\\2.1.1\\materialdesigncolors.2.1.1.nupkg.sha512",
     "C:\\Users\\MrKyg\\.nuget\\packages\\materialdesignthemes\\4.7.1\\materialdesignthemes.4.7.1.nupkg.sha512",
-    "C:\\Users\\MrKyg\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    "C:\\Users\\MrKyg\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\MrKyg\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\MrKyg\\.nuget\\packages\\texttocolor\\1.0.0\\texttocolor.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

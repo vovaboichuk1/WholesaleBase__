@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
+    <PackageReference Include="TextToColor" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

@@ -16,8 +16,8 @@
                 <materialDesign:DialogHost CloseOnClickAway="True" x:Name="DialogHost">
                 <StackPanel Cursor="">
                     <materialDesign:PopupBox x:Name="ThemeToggle" 
-                    HorizontalAlignment="Right" Margin="0 20 40 0" PlacementMode="BottomAndAlignRightEdges" 
-                    StaysOpen="False" Height="25">
+                    HorizontalAlignment="Right" Margin="0 20 20 0" PlacementMode="BottomAndAlignRightEdges" 
+                    StaysOpen="True" Height="25">
                         <StackPanel>
 
                             <StackPanel Margin="16 10 0 6" Orientation="Horizontal"
@@ -30,25 +30,32 @@
                             <Button x:Name="btn_exit" ToolTip="Вийти з програми" Content="Вийти" Click="btn_exit_Click"/>
                         </StackPanel>
                     </materialDesign:PopupBox>
-                    <Image Margin="0 60 0 5" Source="Assets/Logo.png" Height="100" HorizontalAlignment="Center"/>
+                    <StackPanel Margin="-5">
+                        <materialDesign:PackIcon Kind="FoodApple" HorizontalAlignment="Center" Margin="0 0 0 5" Height="100" Width="100" Foreground="#A4F43D" />
+                    </StackPanel>
 
 
-
-                    <TextBlock FontSize="17" FontWeight="SemiBold" HorizontalAlignment="Center" Text="Увійдіть до наявного облікового запису"/>
-
-                    <TextBox BorderThickness="2" BorderBrush="{DynamicResource MaterialDesignDivider}" Margin="0 50 0 0" x:Name="TxtUsername" Width="300" FontSize="18"
+                    <Label x:Name="LabelName">
+                        <TextBlock  x:Name="Textmain" Margin="70 40 0 0" FontSize="17" FontWeight="SemiBold" HorizontalAlignment="Center" Text="Увійдіть до наявного облікового запису"/>
+                        </Label>
+                    <Label x:Name="LabelName1">
+                        <TextBox BorderThickness="2" BorderBrush="{DynamicResource MaterialDesignDivider}" Margin="70 50 0 0" x:Name="TxtUsername" Width="300" FontSize="18"
                          materialDesign:HintAssist.Hint="Введіть псевдонім"
                          Style="{StaticResource MaterialDesignOutlinedTextBox}" />
-
-                    <PasswordBox Margin="0 20 0 0" x:Name="txtPassword" Width="300" FontSize="18" materialDesign:HintAssist.Hint="Введіть пароль" BorderThickness="2" 
+                    </Label>
+                    <Label x:Name="LabelName2">
+                        <PasswordBox Margin="70 20 0 0" x:Name="txtPassword" Width="300" FontSize="18" materialDesign:HintAssist.Hint="Введіть пароль" BorderThickness="2" 
                          BorderBrush="{DynamicResource MaterialDesignDivider}" Style="{StaticResource MaterialDesignFilledPasswordBox}" />
-
-                    <Button Margin="0 20 0 0" x:Name="btnLogin" Style="{StaticResource MaterialDesignFlatMidBgButton}" materialDesign:ShadowAssist.ShadowDepth="Depth0" Height="53" Width="300" materialDesign:ButtonAssist.CornerRadius="10"   
-                        FontSize="18" Content="Увійти"/>
-
-                    <Button Margin=" 0 20 0 0" x:Name="signupBtn" Style="{StaticResource MaterialDesignFlatButton}" materialDesign:ShadowAssist.ShadowDepth="Depth0" Height="53" Width="300" materialDesign:ButtonAssist.CornerRadius="10" 
+                    </Label>
+                    <Label x:Name="LabelName3">
+                            <Button Margin="70 20 0 0" x:Name="btnLogin" Style="{StaticResource MaterialDesignFlatMidBgButton}" materialDesign:ShadowAssist.ShadowDepth="Depth0" Height="53" Width="300" materialDesign:ButtonAssist.CornerRadius="10"   
+                        FontSize="18" Content="Увійти" Click="Test_Click"/>
+                        </Label>
+                        <Label x:Name="LabelName4">
+                            <Button Margin=" 70 20 0 0" x:Name="signupBtn" Style="{StaticResource MaterialDesignFlatButton}" materialDesign:ShadowAssist.ShadowDepth="Depth0" Height="53" Width="300" materialDesign:ButtonAssist.CornerRadius="10" 
                         FontSize="18" Content="Створити новий акаунт" Click="signupBtn_Click" />
-                    <Button x:Name="Test" Content="Test" Click="Test_Click" />
+                        </Label>
+
                 </StackPanel>
             </materialDesign:DialogHost>
             </materialDesign:Card>
