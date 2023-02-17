@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:WholeBase"
         mc:Ignorable="d"
         Title="Main" 
-        Height="1920" Width="1080" x:Name="Appwindow" >
+        Height="768" Width="1366" x:Name="Appwindow" WindowStartupLocation="CenterScreen" >
             
     <Grid >
         <materialDesign:Card >

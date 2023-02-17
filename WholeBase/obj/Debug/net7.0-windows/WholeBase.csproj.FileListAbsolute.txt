@@ -71,3 +71,4 @@ C:\Users\MrKyg\Source\Repos\WholesaleBase__1\WholeBase\obj\Debug\net7.0-windows\
 C:\Users\MrKyg\Source\Repos\WholesaleBase__1\WholeBase\obj\Debug\net7.0-windows\WholeBase.genruntimeconfig.cache
 C:\Users\MrKyg\Source\Repos\WholesaleBase__1\WholeBase\obj\Debug\net7.0-windows\ref\WholeBase.dll
 C:\Users\MrKyg\Source\Repos\WholesaleBase__1\WholeBase\bin\Debug\net7.0-windows\TextToColor.dll
+C:\Users\MrKyg\Source\Repos\WholesaleBase__\WholeBase\bin\Debug\net7.0-windows\TextToColor.dll
