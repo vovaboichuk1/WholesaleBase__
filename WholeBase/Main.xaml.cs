@@ -67,5 +67,11 @@ namespace WholeBase
         {
             MyFrame.Content = new MyProfile();
         }
+        private void Button_Click_searchplace(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Content = new SerchPlace();
+        }
+
+       
     }
 }

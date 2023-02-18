@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eP5HPCms+Ev+L1Ouy170D6pG7OcFbyaPE4gUwOGMQc8Klb0zXzhGRqwn4+ga3VFXUoOq6M60amtSablXKpt5xA==",
+  "dgSpecHash": "YsNQAifnQm0x7z2DnNETt9OClsnwhd/NHBUtcXnEkkWEePQm7xJdnGTq4r+uhdhkEC3cWc+0QY811fIMulXqNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\WholeBase.csproj",
+  "projectFilePath": "C:\\Users\\MrKyg\\source\\repos\\WholesaleBase__\\WholeBase\\WholeBase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MrKyg\\.nuget\\packages\\materialdesigncolors\\2.1.1\\materialdesigncolors.2.1.1.nupkg.sha512",
     "C:\\Users\\MrKyg\\.nuget\\packages\\materialdesignthemes\\4.7.1\\materialdesignthemes.4.7.1.nupkg.sha512",

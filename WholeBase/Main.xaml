@@ -26,7 +26,7 @@
                     <ListView Margin="0 15" BorderBrush="DarkGray" BorderThickness="2" Cursor="">
                         <ListViewItem HorizontalAlignment="Center" Margin="0 ">
                             <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
-                                    HorizontalAlignment="Left" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
+                                    HorizontalAlignment="Left" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" Click="Button_Click_searchplace" >
                                 <StackPanel Margin="-5">
                                     <materialDesign:PackIcon Kind="Search"/>
                                 </StackPanel>
