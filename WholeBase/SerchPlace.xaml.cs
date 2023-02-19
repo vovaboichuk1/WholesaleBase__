@@ -24,5 +24,22 @@ namespace WholeBase
         {
             InitializeComponent();
         }
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Очищуємо список товарів перед пошуком
+            ProductsList.Items.Clear();
+
+            // Отримуємо текст для пошуку
+            string searchText = SearchBox.Text;
+
+            // Перебираємо всі товари в базі даних та додаємо ті, що відповідають пошуковому запиту, в список
+           // foreach (var product in database.Products)
+            //{
+              //  if (product.Name.Contains(searchText))
+               // {
+                  //  ProductsList.Items.Add(product);
+               // }
+          //  }
+        }
     }
 }

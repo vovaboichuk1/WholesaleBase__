@@ -10,26 +10,27 @@
       Title="SerchPlace" Background="White">
 
     <Grid  >
-        <Grid.ColumnDefinitions >
-            <ColumnDefinition  Width="1*" />
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="2*"/>
 
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition  Height="1*" />
-            <RowDefinition Height="6*"/>
-
-        </Grid.RowDefinitions>
-        <StackPanel>
-            <materialDesign:PackIcon Kind="Search" Margin="30 20 30 0" Height="40" Width="40"/>
-
-        </StackPanel>
+        <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
+           HorizontalAlignment="Left" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" Click="SearchButton_Click" Margin="0,0,0,660" Height="50" Width="50" >
+            <materialDesign:PackIcon Kind="Search" Height="50" Width="50"/>
+        </Button>
+       
         <StackPanel >
-            <TextBox Margin="0 15 -40 0" Grid.Row="0" Grid.Column="0" BorderThickness="2" BorderBrush="{DynamicResource MaterialDesignDivider}"  x:Name="TxtUsername"  FontSize="14"
+            <TextBox x:Name="SearchBox"  Margin="0 15 1000 0"  Grid.Column="0" BorderThickness="2" BorderBrush="{DynamicResource MaterialDesignDivider}" FontSize="14"
          materialDesign:HintAssist.Hint=" Пошук" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Height="45" Width="150" />
         </StackPanel>
-        
-            
+        <ListView x:Name="ProductsList" Margin="100" >
+            <ListView.View>
+                <GridView >
+                    <GridViewColumn Header="Назва" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="Ціна за 10кг" DisplayMemberBinding="{Binding Price}" />
+                    <GridViewColumn Header="Кількість" DisplayMemberBinding="{Binding amount}" />
+                    <GridViewColumn Header="Сорт" DisplayMemberBinding="{Binding sort}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+
     </Grid>
 </Page>
