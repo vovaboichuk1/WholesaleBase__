@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -20,10 +21,17 @@ namespace WholeBase
     /// </summary>
     public partial class RegisterWindow : Window
     {
+
+        AppContext db;
         public RegisterWindow()
         {
             InitializeComponent();
+
+            db = new AppContext();
         }
+
+
+
         public bool IsDarkTheme { get; set; }
         private readonly PaletteHelper paletteHelper = new PaletteHelper();
 
@@ -70,10 +78,38 @@ namespace WholeBase
 
         private void btnlog_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
-            Hide();
+            string name = TxtUsername.Text;
+            string password = txtPassword.Password;
 
+
+            if (name.Length < 4)
+            {
+                TxtUsername.ToolTip = "Мінімум 4 символи";
+                TxtUsername.Background = Brushes.IndianRed;
+            }
+            else if (password.Length < 6)
+            {
+                txtPassword.ToolTip = "Мінімум 6 символів";
+                txtPassword.Background = Brushes.IndianRed;
+            }
+            else
+            {
+                TxtUsername.ToolTip = "";
+                TxtUsername.Background = Brushes.Transparent;
+
+                txtPassword.ToolTip = "";
+                txtPassword.Background = Brushes.Transparent;
+
+                User user = new User(name, password);
+                db.Users.Add(user);
+                db.SaveChanges();
+
+
+                MainWindow mainWindow = new MainWindow();
+                mainWindow.Show();
+                Hide();
+
+            }
         }
     }
 }

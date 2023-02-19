@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\WholeBase.csproj": {}
+    "C:\\Users\\vovab\\Source\\Repos\\WholesaleBase___\\WholeBase\\WholeBase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\WholeBase.csproj": {
+    "C:\\Users\\vovab\\Source\\Repos\\WholesaleBase___\\WholeBase\\WholeBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\WholeBase.csproj",
+        "projectUniqueName": "C:\\Users\\vovab\\Source\\Repos\\WholesaleBase___\\WholeBase\\WholeBase.csproj",
         "projectName": "WholeBase",
-        "projectPath": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\WholeBase.csproj",
-        "packagesPath": "C:\\Users\\MrKyg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MrKyg\\Source\\Repos\\WholesaleBase__\\WholeBase\\obj\\",
+        "projectPath": "C:\\Users\\vovab\\Source\\Repos\\WholesaleBase___\\WholeBase\\WholeBase.csproj",
+        "packagesPath": "C:\\Users\\vovab\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vovab\\Source\\Repos\\WholesaleBase___\\WholeBase\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MrKyg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vovab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,9 +45,33 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[4.7.1, )"
+            },
+            "Stub.System.Data.SQLite.Core.NetFramework": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "System.Data.SQLite.EF6": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "System.Data.SQLite.Linq": {
+              "target": "Package",
+              "version": "[1.0.117, )"
             },
             "TextToColor": {
               "target": "Package",
@@ -68,7 +97,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
