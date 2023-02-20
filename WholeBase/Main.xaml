@@ -28,7 +28,7 @@
                             <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
                                     HorizontalAlignment="Left" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" Click="Button_Click_searchplace" >
                                 <StackPanel Margin="-5">
-                                    <materialDesign:PackIcon Kind="Search"/>
+                                    <materialDesign:PackIcon Kind="Home"/>
                                 </StackPanel>
                             </Button>
                         </ListViewItem>
@@ -48,22 +48,8 @@
                                 </StackPanel>
                             </Button>
                         </ListViewItem>
-                        <ListViewItem HorizontalAlignment="Center" Margin="0 ">
-                            <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
-                                    HorizontalAlignment="Left" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
-                                <StackPanel Margin="-5">
-                                    <materialDesign:PackIcon Kind="Home"/>
-                                </StackPanel>
-                            </Button>
-                        </ListViewItem>
-                        <ListViewItem HorizontalAlignment="Center" Margin="0 ">
-                            <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
-                                    HorizontalAlignment="Left" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" Click="messengTxT_Click" x:Name="messengTxT" >
-                                <StackPanel Margin="-5">
-                                    <materialDesign:PackIcon Kind="Bell"/>
-                                </StackPanel>
-                            </Button>
-                        </ListViewItem>
+                       
+                       
                         <ListViewItem HorizontalAlignment="Center" Margin="0 ">
                             <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
                                     HorizontalAlignment="Left" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" Click="ThemToogle_Click">
@@ -72,14 +58,7 @@
                                 </StackPanel>
                             </Button>
                         </ListViewItem>
-                        <ListViewItem HorizontalAlignment="Center" Margin="0 ">
-                            <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
-                                    HorizontalAlignment="Left" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" Click="btn_exit_Click">
-                                <StackPanel Margin="-5">
-                                    <materialDesign:PackIcon Kind="ExitRun"/>
-                                </StackPanel>
-                            </Button>
-                        </ListViewItem>
+                        
                     </ListView>
                 </Grid>
                 <Grid Grid.Column="1">

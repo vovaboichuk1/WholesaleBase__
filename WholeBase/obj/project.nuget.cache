@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gaHdX71sFBFRm/3WxBBmtdKxgM3cxATOHQSBYrc+uCklz1Twa0aTiHwxsEEYzauRcea5eoPB1glXaj+P0LKx2A==",
+  "dgSpecHash": "b/XhrTwA1ThfFHODYTG17Y5bFMOxKOVpmYBSWBtdvcPv9DZxNiJpFzJi4cHBef9SeYK0DHG3tB0Q+7ddnV5n/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vovab\\Source\\Repos\\WholesaleBase___\\WholeBase\\WholeBase.csproj",
+  "projectFilePath": "C:\\Users\\vovab\\source\\repos\\WholesaleBase___\\WholeBase\\WholeBase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vovab\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\vovab\\.nuget\\packages\\materialdesigncolors\\2.1.1\\materialdesigncolors.2.1.1.nupkg.sha512",

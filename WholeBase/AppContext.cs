@@ -8,9 +8,9 @@ using System.Data.Entity;
 namespace WholeBase
 {
            class  AppContext:DbContext
-    {
-        public DbSet<User> Users { get; set; }
-        public AppContext() : base("DefaultConnection") { }
+             {
+                  public DbSet<User> Users { get; set; }
+                     public AppContext() : base("DefaultConnection") { }
 
-    }
+             }
 }

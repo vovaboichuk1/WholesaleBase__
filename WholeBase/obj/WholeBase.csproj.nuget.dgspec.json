@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vovab\\Source\\Repos\\WholesaleBase___\\WholeBase\\WholeBase.csproj": {}
+    "C:\\Users\\vovab\\source\\repos\\WholesaleBase___\\WholeBase\\WholeBase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vovab\\Source\\Repos\\WholesaleBase___\\WholeBase\\WholeBase.csproj": {
+    "C:\\Users\\vovab\\source\\repos\\WholesaleBase___\\WholeBase\\WholeBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vovab\\Source\\Repos\\WholesaleBase___\\WholeBase\\WholeBase.csproj",
+        "projectUniqueName": "C:\\Users\\vovab\\source\\repos\\WholesaleBase___\\WholeBase\\WholeBase.csproj",
         "projectName": "WholeBase",
-        "projectPath": "C:\\Users\\vovab\\Source\\Repos\\WholesaleBase___\\WholeBase\\WholeBase.csproj",
+        "projectPath": "C:\\Users\\vovab\\source\\repos\\WholesaleBase___\\WholeBase\\WholeBase.csproj",
         "packagesPath": "C:\\Users\\vovab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vovab\\Source\\Repos\\WholesaleBase___\\WholeBase\\obj\\",
+        "outputPath": "C:\\Users\\vovab\\source\\repos\\WholesaleBase___\\WholeBase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
